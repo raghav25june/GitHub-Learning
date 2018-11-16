@@ -1,53 +1,27 @@
-Reverse using recursion no loop or inbuilt method
-
-#include <stdio.h>
-
-#include <string.h>
-
-void reverse(char [], int, int);
-
-int main()
+class ReverseString
 
 {
+	public static void reverse(char[] chararr, int x, int n){
 
-char str1[20];
+		char temp;
+		temp=chararr[x];
+		chararr[x]=chararr[n-x];
+		chararr[n-x]=temp;
+		if (x== n / 2){
+			return;
+			}
+			reverse(chararr, x+1,n);
 
-int size;
+	}
+	public static void main(String[] args) 
+	{
 
-printf("Enter a string to reverse: ");
-
-scanf("%s", str1);
-
-size = strlen(str1);
-
-reverse(str1, 0, size - 1);
-
-printf("The string after reversing is: %s\n", str1);
-
-return 0;
-
-}
-
-void reverse(char str1[], int index, int size)
-
-{
-
-char temp;
-
-temp = str1[index];
-
-str1[index] = str1[size - index];
-
-str1[size - index] = temp;
-
-if (index == size / 2)
-
-{
-
-return;
-
-}
-
-reverse(str1, index + 1, size);
-
+		String testString = "This Is Test";
+		char[] chararr = testString.toCharArray();
+		int n=chararr.length;
+		reverse(chararr,0,n-1);
+		String string = new String(chararr);
+		System.out.println(string);
+		//System.out.println(n);
+	}
 }
