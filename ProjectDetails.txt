@@ -1,0 +1,77 @@
+Hi friends, this is arun..after seeing my previous post lot of people called me and asked me how to crack interview as experienced java developer.
+
+few tips note down it,
+
+tell about yourself with start your name and end with your roles and responsibility in previous project which you have worked in previous company.
+
+ex- my self a arun kumar basically i am from odisha, i have completed bca in 2013,after completion of my studies
+ i started my carrier by working in infogrid technology that is there in banglore. in this organization i am working as a java developer. 
+i have been working in this organisation since 3.4 years in one project named as AGD. AGD stands for all goods details .
+its a erp domain project and our client for this project from Europe.
+the main objective of this project is a user can interact with suppliers through online. user can get the status through online by mail about transpored product and 
+availability.
+user check and view about historical data and user can generate his own reports.this application is acts as a mediator between user and suplliers.
+to implement this project we have been following agile mathodology.we are developing code and transfer to tester.afer completion of testing we deploy into live
+environment then another sprint wil be released by our scrum master. 
+again we follow same. each sprint we takes around 15 to 20 days.and we conduct daily one meeting roughly around 15 minutes about. in this duration we talk about 
+what we have done yesterday what problem we faced and what we are going to do next.
+
+in this project my roles and responsibilities are
+implementing dao by using hibernate
+developing modules by following spring mvc.
+testing web serviece by using saop ui.
+generate wsdl, creat wsdl.
+debug the code and fixing bugs.
+adding jars in pom.xml.
+to make application to get better performation developing code by following several design pattern like singleton, factory pattern,
+ templet, abstarct factory pattern etc.
+
+implementing bussiness logics,
+analys bussiness requirement.
+
+these are my roles and responsibilities in this projects
+
+then the interviewer will start asking queations from core java to frameworks.
+
+important topics in core java
+1 strings
+2oops
+3collections include concurrent collections
+4multi threading
+5 several logical programs like, reversing, sorting, etc
+
+hibernate
+1 difference between get and load
+3 difference between merge and saveOrUpate
+4 caching
+5 mappings one to many,many to one many to many
+5 why sessionfactory is threadsafe
+spring
+
+1 why dependency injection came into the picture
+2 what is ioc
+3 what are the scopes
+4 what is defference between beanfactory container and application container
+
+5 flow of spring mvc
+6 what are the view resolver
+7 what is aop
+8 what are the autowire modes
+9 how to integrate with hibernate with spring, some times they ask you to write down xml file
+
+web services
+
+what is rest
+what is deffernce between soap and rest,
+what are annotations in rest and their works
+what is advantage from soap and disadvantage of soap
+
+. friends these are commonly asked questions in regular interview. instead of by chosing these question it is far better to learn in depth. but i am sure no quetions can come out of nataraz sir's meterial.
+
+and one.more thing when your going to interview dont go with heavy make up. just go how your going daily to class
+
+just go in cool mind. if you dont know any answer at all. say in positively i dont know but if you give me a chance i will learn.
+
+but sure when your going to attend intervie make sure that remember nataraz sir classes. and go in cool mind.
+
+ALL THE BEST GUYS
